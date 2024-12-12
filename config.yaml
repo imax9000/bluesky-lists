@@ -3,7 +3,7 @@ dids:
 
 listRefs:
   - &singal
-    did: &me
+    did: *me
     rkey: "3ld4s7b56zh2u"
 
 lists:
