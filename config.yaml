@@ -1,0 +1,15 @@
+dids:
+  - &me "did:plc:ivqrehafyybffh7yxmwhf5n5"
+
+listRefs:
+  - &singal
+    did: &me
+    rkey: "3ld4s7b56zh2u"
+
+lists:
+  - name: Followers of Jesse Singal
+    <<: *singal
+    entries:
+      union:
+        - did: "did:plc:232eprew2nyn75ensoah2lg2"
+        - followers: "did:plc:232eprew2nyn75ensoah2lg2"
