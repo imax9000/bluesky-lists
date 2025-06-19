@@ -14,6 +14,13 @@ lists:
       union:
         - did: "did:plc:232eprew2nyn75ensoah2lg2"
         - followers: "did:plc:232eprew2nyn75ensoah2lg2"
+  - name: Followers of JD Vance
+    did: *me
+    rkey: 3lryjs3wtbe2i
+    entries:
+      union:
+        - did: "did:plc:tkspefzlu72575kljanhe3uj"
+        - followers: "did:plc:tkspefzlu72575kljanhe3uj"
   - name: Blocked by Scalzi
     did: *me_ua
     rkey: 3k53kpqaspl2r
